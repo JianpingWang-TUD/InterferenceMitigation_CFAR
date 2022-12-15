@@ -10,7 +10,7 @@ CFAR-based Interference Mitigation for FMCW Radars
 
 
 # Reference
-Please cite our work below for the code:
+Please cite our work below for the code if it is helpful to you:
 ```
 @ARTICLE{Wang2022T-ITS,
   author={Wang, Jianping},
