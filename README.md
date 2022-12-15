@@ -1,9 +1,15 @@
 # InterferenceMitigation_CFAR
 CFAR-based Interference Mitigation for FMCW Radars
 
+# Description of the code structure
+> - Folder **Util_CFAR_IM** includes the scripts for CFAR-based interference mitigation (IM) approaches;
+> - Folder **Util_FMCW** includes the scripts for signal generation for FMCW radars;
+> - Folder **Util_plot** includes the function scripts for plot generation.
+> - Folder **Other_approach** includes the scripts for some other state-of-the-art IM approaches;
+> - **main** script presents a demonstration for the IM approaches.
 
 
-## Reference
+# Reference
 Please cite our work below for the code:
 ```
 @ARTICLE{Wang2022T-ITS,
