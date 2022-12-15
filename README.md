@@ -6,7 +6,7 @@ CFAR-based Interference Mitigation for FMCW Radars
 > - The folder **Util_FMCW** includes the scripts for signal generation for FMCW radars;
 > - The folder **Util_plot** includes the function scripts for plot generation.
 > - The folder **Other_approach** includes the scripts for some other state-of-the-art IM approaches;
-> - **main** script presents a demonstration for the IM approaches.
+> - **"main"** script presents a demonstration for the IM approaches.
 
 
 # Reference
