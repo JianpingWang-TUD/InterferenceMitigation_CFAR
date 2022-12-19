@@ -5,13 +5,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 close all; clear;  clc;
 oldpath = path;
-%addpath('C:\Users\jianpingwang\Downloads\downloads\matrix_pencil')
 addpath('./Util_CFAR_IM/','./Util_FMCW/','./Util_plot/')
 
 flag_plot = 0;
 Ftsz = 12;
-% fig_dir = './figs/pt_noisy_auto/';
-%fig_dir = './figs/pt_noisy_auto_20210602/';
+% fig_dir = './figs/';
 %% FMCW radar
 ii = sqrt(-1);
 c      = 3e8;
