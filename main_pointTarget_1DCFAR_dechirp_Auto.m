@@ -4,10 +4,14 @@
 % J.Wang @MS3, TU Delft, Dec 5, 2019
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 close all; clear;  clc;
+oldpath = path;
+%addpath('C:\Users\jianpingwang\Downloads\downloads\matrix_pencil')
+addpath('./Util_CFAR_IM/','./Util_FMCW/','./Util_plot/')
 
-flag_plot = 0;   % flag to turn on/off the figure plot
+flag_plot = 0;
 Ftsz = 12;
-fig_dir = '/result/';
+% fig_dir = './figs/pt_noisy_auto/';
+%fig_dir = './figs/pt_noisy_auto_20210602/';
 %% FMCW radar
 ii = sqrt(-1);
 c      = 3e8;
@@ -468,7 +472,7 @@ rho_amp = abs(rho)
 rho_phase = angle(rho)
 % rho = rho_amp .* exp(ii*rho_phase)
 
-close all
+%close all
 
 hf = figure
 plot(t*1e6, real(sig_ANC));
