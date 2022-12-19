@@ -7,9 +7,11 @@ close all; clear;  clc;
 oldpath = path;
 addpath('./Util_CFAR_IM/','./Util_FMCW/','./Util_plot/')
 
-flag_plot = 0;
+flag_plot = 0;  % boolean flag that turns on/off the figure plotting:  
+                %        flag_plot=1, plot figure;
+                %        flag_plot=0, do not plot.
 Ftsz = 12;
-% fig_dir = './figs/';
+fig_dir = './figs/';
 %% FMCW radar
 ii = sqrt(-1);
 c      = 3e8;
