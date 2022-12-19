@@ -4,13 +4,10 @@
 % J.Wang @MS3, TU Delft, Dec 5, 2019
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 close all; clear;  clc;
-oldpath = path;
-addpath('C:\Users\jianpingwang\Downloads\downloads\matrix_pencil')
 
-flag_plot = 0;
+flag_plot = 0;   % flag to turn on/off the figure plot
 Ftsz = 12;
-% fig_dir = './figs/pt_noisy_auto/';
-fig_dir = './figs/pt_noisy_auto_20210602/';
+fig_dir = '/result/';
 %% FMCW radar
 ii = sqrt(-1);
 c      = 3e8;
